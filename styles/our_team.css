@@ -1,0 +1,76 @@
+.our_team{
+	width: 100%;
+	height: 120em;
+	position: relative;
+}
+.our_team .content{
+	width: 1200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+}
+
+.our_team .content .col-1, .our_team .content .col-2{
+	width: 600px;
+}
+
+.our_team .profile{
+	width: 580px;
+	height: 680px;
+	background: url(../images/profile1.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	margin-top: 50px;
+}
+.col-1 .profile:nth-child(3){
+	background: url(../images/profile2.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-top: 30px;
+}
+.col-2 .profile:nth-child(1){
+	background: url(../images/profile3.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-top: 0px;
+}
+.col-2 .profile:nth-child(2){
+	background: url(../images/profile4.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-top: 30px;
+}
+.our_team .info{
+	position: absolute;
+	width: 92%;
+	height: 100px;
+	background-color: #fff;
+	bottom: 0;
+	/*border: 1px solid red;*/
+}
+.our_team .info .name{
+	font-family: montserrat;
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--darbl);
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.our_team .info .position{
+	font-family: raleway;
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--darbl);
+	text-transform: uppercase;
+	margin-left: 25px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}

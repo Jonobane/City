@@ -1,0 +1,82 @@
+.contact_us{
+	width: 100%;
+	height: 50em;
+	position: relative;
+}
+.contact_us .content{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.contact_us .context{
+	width: 100%;
+	display: flex;
+}
+.contact_us .col-1{
+	width: 40%;
+}
+.contact_us .col-2{
+	width: 60%;
+	font-weight: 400;
+	font-family: montserrat;
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--gr);
+}
+.contact_us .message{
+	margin-top: 50px;
+}
+.contact_us .message label{
+	font-family: raleway;
+	font-weight: 600;
+	font-size: 24px;
+	color: var(--darbl);
+	letter-spacing: 1px;
+}
+.contact_us .message input[type=text]{
+	width: 100%;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid var(--gr);
+	background: transparent;
+	margin-bottom: 50px;
+	outline: none;
+	font-size: 18px;
+	font-family: montserrat;
+	font-weight: 400;
+}
+
+.contact_us textarea{
+	width: 100%;
+	height: 150px;
+	border: none;
+	border-bottom: 1px solid var(--gr);
+	background: transparent;
+	margin-bottom: 50px;
+	margin-top: 20px;
+	outline: none;
+	font-size: 18px;
+	font-family: montserrat;
+	font-weight: 400;
+	resize: vertical;
+}
+.contact_us .message button{
+	width: 120px;
+	height: 50px;
+	background:var(--suncol);
+	border: none;
+	border-radius: 10px;
+	font-weight: 600;
+	font-family: montserrat;
+	font-size: 20px;
+	color: var(--darbl);
+	text-transform: uppercase;
+}
+.contact_us .message button:hover{
+	background: var(--darbl);
+	color: #fff;
+	transition: 0.6s;
+}

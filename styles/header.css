@@ -1,0 +1,202 @@
+
+.header{
+	background: var(--darbl);
+	width: 100%;
+	height: 100vh;
+	border: none;
+}
+a{text-decoration: none; }
+
+.transition {
+  transition: 2s;
+}
+
+#to_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--suncol);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#to_top img{
+	width: 30px;
+	height: 30px;
+}
+#to_top:hover {
+  cursor: pointer;
+  background-color: var(--darbl);
+}
+#to_top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 80px;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	position: -webkit-sticky;
+	position: fixed;	
+	z-index: 100; 
+}
+.navbar .logo{
+	display: flex;
+	align-items: center;
+	margin-right: auto;
+	padding-left: 100px;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+}
+.navbar .menu{
+	text-align: center;
+}
+.navbar .menu li{
+	display: inline;
+	margin: 0 15px 0 15px;
+	line-height: 80px;
+}
+.navbar .menu li:first-child{
+	margin-left: 0;
+}
+.navbar .menu li:last-child{
+	margin-right: 0;
+}
+.navbar .menu a{
+	color: #fff;
+	font-family: raleway;
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.navbar .menu a:hover{
+	color: var(--suncol);
+	transition: 0.5s ease-in-out;
+}
+.navbar .phone_numb p{
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: montserrat;
+	line-height: 80px;
+	text-align: right;
+	padding-right: 50px; 
+}
+
+.top {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  padding-top: 0px;
+  z-index: 100;
+  background-color: var(--darbl);
+}
+.owl-carousel{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.owl-carousel .item{
+	width: 80%;
+	height: 100vh;
+	margin-left: auto;
+}
+.item .image1{
+	width: 85%;
+	height: 100vh;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/2100_club.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-left: auto;
+}
+.item .image2{
+	width: 85%;
+	height: 100vh;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/villa_echo.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-left: auto;
+}
+.item .image3{
+	width: 85%;
+	height: 100vh;
+	background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/musem2.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-left: auto;
+}
+.item .img_info{
+	width: 50em;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 50px;
+}
+.img_info .inter{
+	width: 300px;
+	height: 470px;
+	
+}
+.img_info .inter img{
+	display: block;
+	width: 100%;
+}
+.img_info .info{
+	
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.img_info .info .addres{
+	color: #fff;
+	font-size: 22px;
+	font-family: montserrat;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	animation: fadeInUp; 
+  animation-duration: 2s;
+}
+.img_info .info .name{
+	font-size: 80px;
+	color: var(--suncol);
+	font-weight: 900;
+	font-family: montserrat;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0px;
+	animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+.img_info .info .type{
+	color: #fff;
+	font-size: 18px;
+	font-family: montserrat;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+

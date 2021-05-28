@@ -1,0 +1,119 @@
+.our_serv{
+	width: 100%;
+	height: 850px;
+	position: relative;
+	margin-top: 100px;
+}
+.our_serv .content{
+	position: absolute;
+	width: 1200px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.our_serv .info{
+	display: flex;
+	align-items: center;
+	width: 1200px;
+	height: 600px;
+	margin-top: 65px;
+}
+.our_serv .info .image{
+	width: 600px;
+	height: 600px;
+	background: url(../images/our_serv.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.our_serv .info .description{
+	width: 600px;
+	height: 600px;
+}
+.our_serv .info .description .text1{
+	width: 600px;
+	height: 300px;
+	color: var(--darbl);
+	position: relative;
+}
+.our_serv .info .description .text1 p{
+	position: absolute;
+	width: 450px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+	font-family: montserrat;
+	font-weight: 500;
+	line-height: 30px;
+}
+.our_serv .info .description .text2{
+	width: 600px;
+	height: 300px;
+	background:var(--suncol);
+	position: relative;
+}
+.our_serv .info .description .text2 p{
+	color: var(--darbl);
+	font-weight: 600;
+	font-family: raleway;
+	font-size: 24px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	position: absolute;
+	width: 450px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.our_serv2{
+	width: 100%;
+	height: 800px;
+	position: relative;
+}
+.tabs{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1200px;
+	height: 700px;
+	display: grid;
+	grid-template-columns: 600px 600px;
+}
+.tabs .tab{
+	display: block;
+	height: 350px;
+	position: relative;
+}
+.tabs .tab:hover{
+	box-shadow:0px 0px 11px 2px #BABABA;
+	transition: 0.5s;
+}
+
+.tabs .tab .inside{
+	position: absolute;
+	width: 420px;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.tabs .tab .inside img{
+	width: 45px;
+	height: 45px;
+}
+.tabs .tab .inside .name{
+	font-family: raleway;
+	font-weight: 500;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: var(--darbl);
+}
+.tabs .tab .inside .txt{
+	font-family: montserrat;
+	font-weight: 400;
+	color: #878c8d;
+	font-size: 16px;
+	line-height: 30px;
+}
+

@@ -1,0 +1,63 @@
+.some_projects{
+	width: 100%;
+	height: 800px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.some_projects .build:nth-child(1){
+	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/china.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.some_projects .build:nth-child(2){
+	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/usa.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.some_projects .build:nth-child(3){
+	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/canada.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.some_projects .build:nth-child(4){
+	background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../images/italy.jpg);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.some_projects .build{
+	width: 25%;
+	height: 100%;
+	position: relative;
+}
+
+.some_projects .build .type{
+	width: 20em;
+	position: absolute;
+	bottom: 35%;
+	left: -53%;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(-90deg);
+	color: #fff;
+	font-family: raleway;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: left;
+}
+.some_projects .build .adres{
+	position: absolute;
+	top:5%;
+	left: 10%;
+	transform: translate(-10%, -5%);
+	color: #fff;
+	font-weight: 600;
+	font-family: raleway;
+	font-size: 24px;
+}
